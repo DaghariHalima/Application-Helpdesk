@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+input, textarea, select, button {font-size: 100%; font-family: inherit;}
+:focus { outline: 0;}
+
+body{
+	background: #eceff4;
+	font-family: 'Open Sans';
+}
+
+a{
+	text-decoration: none;
+}
+b{
+	font-weight: 600;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 15px 0;
+    padding: 0;
+    width: 100%;
+}
+strong{
+	font-weight: 600;
+}
+*,
+*:after,
+*::before{box-sizing:border-box; -ms-box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
+
+/* ---- Clearfix ---- */
+.row:before,.row:after,.clearfix:before,.clearfix:after{content:'';display:table}
+.row:after,.clearfix:after{clear:both}
+.row,.clearfix{zoom:1}
+
+
+
+
+
+
+
+.box{
+    background: #F6CECE;
+    border-radius: 5px;
+    padding: 20px 20px 30px 20px;
+    margin: 0px 0 20px 0;
+}
